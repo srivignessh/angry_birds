@@ -4,7 +4,6 @@ import win32api
 import math
 import win32con
 import win32com.client
-import time
 def click(x,y):
 	win32api.SetCursorPos((x,y))
 	win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,x,y,0,0)
